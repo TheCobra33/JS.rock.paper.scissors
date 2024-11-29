@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #04460a70;
+    color: #1714c781;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* Game Container */
+#result {
+    width: 30%;
+    padding: 20px;
+    border: 10px solid #e9782dc9;
+    border-radius: 20px;
+    background-color: hsl(61, 77%, 75%);
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(8, 1, 1, 0.2);
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+/* Buttons */
+button {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 4px solid #e9782dc9;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(2.1);
+}
+
+#Rock {
+    background-color: #7e7870;
+    color: rgb(43, 42, 42);
+}
+
+#Rock:hover {
+    background-color: #080808;
+}
+
+#Paper {
+    background-color: #26ad31;
+    color: rgb(231, 235, 6);
+}
+
+#Paper:hover {
+    background-color: #146e02;
+}
+
+#Scissors {
+    background-color: #11c4e4;
+    color: rgb(17, 37, 218);
+}
+
+#Scissors:hover {
+    background-color: #0482b4;
+}
